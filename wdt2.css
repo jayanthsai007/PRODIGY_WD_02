@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#display {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#stop, #reset, #lap {
+    opacity: 0.5;
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#laps li {
+    margin-bottom: 5px;
+}
